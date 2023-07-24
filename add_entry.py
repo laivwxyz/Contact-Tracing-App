@@ -70,3 +70,7 @@ class AddEntryWindow:
         birth_entry = Entry (self.window, textvariable= self.birth_value, width=45,bd=2,font=('Perpetua', 20))
         birth_entry.place(x=290, y=270)
         self.birth_value.set('mm/dd/yy')
+
+        # Address Entry
+        self.address_entry = Text (self.window, width=76, height=1.5, bd=2)  
+        self.address_entry.place(x=220, y=320)
