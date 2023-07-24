@@ -102,3 +102,6 @@ class AddEntryWindow:
         
         # Clear Button
         Button(self.window, text="Clear", bg="cyan", fg="black", width=15, height=2, command=self.clear).place(x=410, y=700)
+        
+        # Exit Button
+        Button(self.window, text="Exit", bg="cyan", fg="black", width=15, height=2, command=self.exit).place(x=550, y=700)
