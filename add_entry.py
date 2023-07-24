@@ -64,3 +64,9 @@ class AddEntryWindow:
         self.age_value = StringVar()
         age_entry = Entry (self.window, textvariable= self.age_value, width=17,bd=2,font=('Perpetua', 20))
         age_entry.place(x=220, y=220)
+        
+        # Date of Birth Entry
+        self.birth_value = StringVar()
+        birth_entry = Entry (self.window, textvariable= self.birth_value, width=45,bd=2,font=('Perpetua', 20))
+        birth_entry.place(x=290, y=270)
+        self.birth_value.set('mm/dd/yy')
