@@ -136,6 +136,9 @@ class AddEntryWindow:
                 file.write(f"TESTED FOR COVID-19: {testing}\n")
                 file.write("-----------------------------\n")
 
+            # Show a pop-up message after successful submission
+            messagebox.showinfo("Success", "Form data submitted successfully!")
+
     def clear(self):
         # Clear the form fields
         self.name_value.set('')
