@@ -1,0 +1,33 @@
+NAME: Lailanie Dela Cruz
+CONTACT NO.: 09123456789
+AGE: 18 years old
+GENDER: Female
+DATE OF BIRTH: 09/17/2004
+ADDRESS: Purok 3 Nagcampegan, Cauayan City, Isabela
+
+EXPERIENCING SYMPTOMS: No
+EXPOSURE TO CONFIRMED CASE: No
+TESTED FOR COVID-19: No
+-----------------------------
+NAME: Jennie Kim
+CONTACT NO.: 09234124907
+AGE: 27 years old
+GENDER: Female
+DATE OF BIRTH: 01/16/1996
+ADDRESS: Seoul, South orea
+
+EXPERIENCING SYMPTOMS: Yes
+EXPOSURE TO CONFIRMED CASE: Uncertain
+TESTED FOR COVID-19: No
+-----------------------------
+NAME: Selene Espinosa
+CONTACT NO.: 09877665432
+AGE: 21 years old
+GENDER: Female
+DATE OF BIRTH: 04/10/2002
+ADDRESS: Mambugan, Antipolo City
+
+EXPERIENCING SYMPTOMS: Yes
+EXPOSURE TO CONFIRMED CASE: Uncertain
+TESTED FOR COVID-19: No
+-----------------------------
