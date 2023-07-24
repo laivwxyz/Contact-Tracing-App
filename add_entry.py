@@ -142,3 +142,7 @@ class AddEntryWindow:
         self.symptoms_combobox.set("Select")
         self.exposure_combobox.set("Select")
         self.testing_combobox.set("Select")
+
+    def exit(self):
+        # Close the application
+        self.window.destroy()
