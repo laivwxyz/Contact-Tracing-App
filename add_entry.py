@@ -59,3 +59,8 @@ class AddEntryWindow:
         self.contact_value = StringVar()
         contact_entry = Entry (self.window, textvariable= self.contact_value, width=46,bd=2,font=('Perpetua', 20))
         contact_entry.place(x=270, y=170)
+
+        # Age Entry
+        self.age_value = StringVar()
+        age_entry = Entry (self.window, textvariable= self.age_value, width=17,bd=2,font=('Perpetua', 20))
+        age_entry.place(x=220, y=220)
