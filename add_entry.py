@@ -139,6 +139,9 @@ class AddEntryWindow:
             # Show a pop-up message after successful submission
             messagebox.showinfo("Success", "Form data submitted successfully!")
 
+            # Clear the form fields after successful submission
+            self.clear()
+            
     def clear(self):
         # Clear the form fields
         self.name_value.set('')
