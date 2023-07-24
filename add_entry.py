@@ -90,3 +90,8 @@ class AddEntryWindow:
         self.exposure_combobox = Combobox (self.window, values=['Yes', 'No', 'Uncertain'], font ='Perpetua 20', state="r", width=20)
         self.exposure_combobox.place(x=220, y=520)
         self.exposure_combobox.set('Select')
+
+        # Testing Select
+        self.testing_combobox = Combobox (self.window, values=['Yes', 'No'], font ='Perpetua 20', state="r", width=20)
+        self.testing_combobox.place(x=220, y=620)
+        self.testing_combobox.set('Select')
