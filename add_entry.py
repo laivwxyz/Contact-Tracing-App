@@ -33,3 +33,6 @@ class AddEntryWindow:
 
         # Gender Label
         Label (self.window, text="GENDER", font = ('Perpetua', 18, "bold"), bg= "cyan").place(x=485, y=220)
+
+        # Date of birth Label
+        Label (self.window, text="DATE OF BIRTH", font = ('Perpetua', 18, "bold"), bg= "cyan").place(x=90, y=270)
