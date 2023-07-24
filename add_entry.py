@@ -76,3 +76,7 @@ class AddEntryWindow:
         self.address_entry.place(x=220, y=320)
 
         # SELECT
+        # Gender Select
+        self.gender_combobox = Combobox (self.window, values=['Male', 'Female', 'LGBTQA +'], font ='Perpetua 20', state="r", width=17)
+        self.gender_combobox.place(x=603, y=220)
+        self.gender_combobox.set('Select')
