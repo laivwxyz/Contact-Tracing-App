@@ -74,3 +74,5 @@ class AddEntryWindow:
         # Address Entry
         self.address_entry = Text (self.window, width=76, height=1.5, bd=2)  
         self.address_entry.place(x=220, y=320)
+
+        # SELECT
