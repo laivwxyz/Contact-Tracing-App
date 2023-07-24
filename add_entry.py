@@ -95,3 +95,5 @@ class AddEntryWindow:
         self.testing_combobox = Combobox (self.window, values=['Yes', 'No'], font ='Perpetua 20', state="r", width=20)
         self.testing_combobox.place(x=220, y=620)
         self.testing_combobox.set('Select')
+
+        # BUTTON
