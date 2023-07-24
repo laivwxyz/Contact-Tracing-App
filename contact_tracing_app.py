@@ -12,3 +12,10 @@ class ContactTracingApp:
         self.window.geometry('925x780')
         self.window.configure(bg='#fff')
         self.window.resizable(False, False)
+    
+        # Create background image for front page
+        self.image = Image.open("contact_tracing_app_background.png")  
+        self.bg_image = ImageTk.PhotoImage(self.image)
+
+        self.bg_label = Label(self.window, image=self.bg_image) 
+        self.bg_label.place(x=0, y=0, relwidth=1, relheight=1)
