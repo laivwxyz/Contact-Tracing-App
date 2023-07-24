@@ -31,3 +31,7 @@ class ContactTracingApp:
     # Open add entry window
     def open_add_entry_window(self):
         AddEntryWindow()
+
+    # Open search entry window
+    def open_search_entry_window(self):
+        SearchEntryWindow()
