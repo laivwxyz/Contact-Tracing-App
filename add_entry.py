@@ -39,3 +39,6 @@ class AddEntryWindow:
 
         # Address Label
         Label (self.window, text="ADDRESS", font = ('Perpetua', 18, "bold"), bg= "cyan").place(x=90, y=320)
+
+        # Symptoms Label
+        Label (self.window, text="Are you experiencing any symptoms in the past 7 days?", font = ('Perpetua', 18, "bold"), bg= "cyan").place(x=90, y=370)
