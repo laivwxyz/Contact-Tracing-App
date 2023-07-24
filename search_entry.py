@@ -29,3 +29,9 @@ class SearchEntryWindow:
 
         self.result_text = Text(self.window, width=50, height=15, wrap=WORD, font=("Perpetua", 15), bd=2)
         self.result_text.place(x=210, y=300)
+
+        # Clear Button
+        Button(self.window, text="Clear", bg="cyan", fg="black", width=15, height=2, command=self.clear).place(x=300, y=670)
+    
+        # Exit Button
+        Button(self.window, text="Exit", bg="cyan", fg="black", width=15, height=2, command=self.exit).place(x=465, y=670)
