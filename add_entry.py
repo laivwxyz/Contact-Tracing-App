@@ -99,3 +99,6 @@ class AddEntryWindow:
         # BUTTON
         # Submit Button
         Button(self.window, text="Submit", bg="cyan", fg="black", width=15, height=2, command=self.submit).place(x=270, y=700)
+        
+        # Clear Button
+        Button(self.window, text="Clear", bg="cyan", fg="black", width=15, height=2, command=self.clear).place(x=410, y=700)
