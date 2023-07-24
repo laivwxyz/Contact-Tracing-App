@@ -45,3 +45,6 @@ class AddEntryWindow:
 
         # Exposure Label
         Label (self.window, text="Have you had exposure to a probable or confirmed case in the last 14 days?", font = ('Perpetua', 18, 'bold'), bg= "cyan").place(x=90, y=470)
+
+        # Testing Label
+        Label (self.window, text="Have you been tested for Covid-19 in the last 14 days?", font = ('Perpetua', 18, 'bold'), bg= "cyan").place(x=90, y=570)
