@@ -24,3 +24,6 @@ class AddEntryWindow:
         # LABEL
         # Name Label
         Label (self.window, text="NAME", font = ('Perpetua', 18, "bold"), bg= "cyan").place(x=90, y=120)
+
+        # Contact Number Label
+        Label (self.window, text="CONTACT NO.", font = ('Perpetua', 18, "bold"), bg= "cyan").place(x=90, y=170)
