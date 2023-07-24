@@ -50,3 +50,7 @@ class AddEntryWindow:
         Label (self.window, text="Have you been tested for Covid-19 in the last 14 days?", font = ('Perpetua', 18, 'bold'), bg= "cyan").place(x=90, y=570)
 
         # ENTRY
+        # Name Entry
+        self.name_value = StringVar()
+        name_entry = Entry (self.window, textvariable= self.name_value, width=50,bd=2,font=('Perpetua', 20))
+        name_entry.place(x=220, y=120)
