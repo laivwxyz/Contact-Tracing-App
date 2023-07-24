@@ -130,3 +130,15 @@ class AddEntryWindow:
                 file.write(f"EXPOSURE TO CONFIRMED CASE: {exposure}\n")
                 file.write(f"TESTED FOR COVID-19: {testing}\n")
                 file.write("-----------------------------\n")
+
+    def clear(self):
+        # Clear the form fields
+        self.name_value.set('')
+        self.contact_value.set('')
+        self.age_value.set('')
+        self.birth_value.set('')
+        self.address_entry.delete(1.0, END)
+        self.gender_combobox.set("Select")
+        self.symptoms_combobox.set("Select")
+        self.exposure_combobox.set("Select")
+        self.testing_combobox.set("Select")
