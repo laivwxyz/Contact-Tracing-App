@@ -117,3 +117,16 @@ class AddEntryWindow:
             symptoms = self.symptoms_combobox.get()
             exposure = self.exposure_combobox.get()
             testing = self.testing_combobox.get()
+
+            # Save the form data to a text file
+            with open("covid_contact_tracing.txt", "a") as file:
+                file.write(f"NAME: {name}\n")
+                file.write(f"CONTACT NO.: {contact}\n")
+                file.write(f"AGE: {age}\n")
+                file.write(f"GENDER: {gender}\n")
+                file.write(f"DATE OF BIRTH: {birth}\n")
+                file.write(f"ADDRESS: {address}\n")
+                file.write(f"EXPERIENCING SYMPTOMS: {symptoms}\n")
+                file.write(f"EXPOSURE TO CONFIRMED CASE: {exposure}\n")
+                file.write(f"TESTED FOR COVID-19: {testing}\n")
+                file.write("-----------------------------\n")
