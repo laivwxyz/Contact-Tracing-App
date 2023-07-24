@@ -19,3 +19,13 @@ class SearchEntryWindow:
 
         self.bg_label = Label(self.window, image=self.bg_image)  
         self.bg_label.place(x=0, y=0, relwidth=1, relheight=1)
+
+        # Entry for search
+        self.search_entry = Entry(self.window, font=("Perpetua", 15), bd=2, width=40)
+        self.search_entry.place(x=260, y=180)
+
+        self.search_button = Button(self.window, text="Search", bg="cyan", fg="black", width=15, height=2, command=self.search_entries)
+        self.search_button.place(x=400, y=230)
+
+        self.result_text = Text(self.window, width=50, height=15, wrap=WORD, font=("Perpetua", 15), bd=2)
+        self.result_text.place(x=210, y=300)
