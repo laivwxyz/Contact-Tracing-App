@@ -118,6 +118,11 @@ class AddEntryWindow:
             exposure = self.exposure_combobox.get()
             testing = self.testing_combobox.get()
 
+            # Check if all the required fields are filled
+            if not (name and contact and age and gender and birth and address and symptoms != "Select" and exposure != "Select" and testing != "Select"):
+                messagebox.showerror("Error", "Please fill out all the fields!")
+                return
+
             # Save the form data to a text file
             with open("covid_contact_tracing.txt", "a") as file:
                 file.write(f"NAME: {name}\n")
