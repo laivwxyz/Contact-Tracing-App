@@ -19,3 +19,7 @@ class ContactTracingApp:
 
         self.bg_label = Label(self.window, image=self.bg_image) 
         self.bg_label.place(x=0, y=0, relwidth=1, relheight=1)
+
+        # Add entry button
+        self.add_button = Button(self.window, text="Add Information",bg='cyan',command=self.open_add_entry_window, width=24, height=1, font=("Times New Roman", 20))
+        self.add_button.place(x=91, y=269)
