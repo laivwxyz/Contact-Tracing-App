@@ -97,3 +97,5 @@ class AddEntryWindow:
         self.testing_combobox.set('Select')
 
         # BUTTON
+        # Submit Button
+        Button(self.window, text="Submit", bg="cyan", fg="black", width=15, height=2, command=self.submit).place(x=270, y=700)
