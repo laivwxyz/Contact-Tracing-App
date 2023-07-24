@@ -80,3 +80,8 @@ class AddEntryWindow:
         self.gender_combobox = Combobox (self.window, values=['Male', 'Female', 'LGBTQA +'], font ='Perpetua 20', state="r", width=17)
         self.gender_combobox.place(x=603, y=220)
         self.gender_combobox.set('Select')
+
+        # Symptoms Select
+        self.symptoms_combobox = Combobox (self.window, values=['Yes', 'No'], font ='Perpetua 20', state="r", width=20)
+        self.symptoms_combobox.place(x=220, y=420)
+        self.symptoms_combobox.set('Select')
