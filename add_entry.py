@@ -21,5 +21,6 @@ class AddEntryWindow:
         self.bg_label = Label(self.window, image=self.bg_image)  
         self.bg_label.place(x=0, y=0, relwidth=1, relheight=1)
 
+        # LABEL
         # Name Label
         Label (self.window, text="NAME", font = ('Perpetua', 18, "bold"), bg= "cyan").place(x=90, y=120)
