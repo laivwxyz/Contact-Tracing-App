@@ -105,3 +105,15 @@ class AddEntryWindow:
         
         # Exit Button
         Button(self.window, text="Exit", bg="cyan", fg="black", width=15, height=2, command=self.exit).place(x=550, y=700)
+
+    def submit(self):
+            # Process and store the form data submitted by the user
+            name = self.name_value.get()
+            contact = self.contact_value.get()
+            age = self.age_value.get()
+            gender = self.gender_combobox.get()
+            birth = self.birth_value.get()
+            address = self.address_entry.get(1.0, END)
+            symptoms = self.symptoms_combobox.get()
+            exposure = self.exposure_combobox.get()
+            testing = self.testing_combobox.get()
