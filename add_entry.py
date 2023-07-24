@@ -42,3 +42,6 @@ class AddEntryWindow:
 
         # Symptoms Label
         Label (self.window, text="Are you experiencing any symptoms in the past 7 days?", font = ('Perpetua', 18, "bold"), bg= "cyan").place(x=90, y=370)
+
+        # Exposure Label
+        Label (self.window, text="Have you had exposure to a probable or confirmed case in the last 14 days?", font = ('Perpetua', 18, 'bold'), bg= "cyan").place(x=90, y=470)
