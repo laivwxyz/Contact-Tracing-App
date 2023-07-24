@@ -27,3 +27,7 @@ class ContactTracingApp:
         # Search entry button
         self.search_button = Button(self.window, text="Search Existing Information", bg = 'cyan', command=self.open_search_entry_window, width=24, height=1, font=("Times New Roman", 20))
         self.search_button.place(x=477, y=269)
+
+    # Open add entry window
+    def open_add_entry_window(self):
+        AddEntryWindow()
