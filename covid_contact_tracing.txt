@@ -31,3 +31,14 @@ EXPERIENCING SYMPTOMS: Yes
 EXPOSURE TO CONFIRMED CASE: Uncertain
 TESTED FOR COVID-19: No
 -----------------------------
+NAME: Lailanie Espinosa
+CONTACT NO.: 09234580072
+AGE: 18 years old
+GENDER: Female
+DATE OF BIRTH: 09/17/2004
+ADDRESS: Nagcampegan Cauayan City, Isabela
+
+EXPERIENCING SYMPTOMS: No
+EXPOSURE TO CONFIRMED CASE: Uncertain
+TESTED FOR COVID-19: No
+-----------------------------
